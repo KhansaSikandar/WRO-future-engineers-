@@ -1,7 +1,65 @@
 All programs were created using **Matata Nous AI Studio**.  
-This folder contains labeled screenshots of our block-based programs for easy viewing.
 
 
 
 
-These images represent the complete logic of our robot. The programs were tested and refined during each stage of development.
+When program starts:
+    Set servo angle as new zero point
+    Turn on camera preview
+    Turn on camera white balance
+    Turn on color block detection
+    Set color block to BLUE with L: 60.80, A: -10.18, B: -5.10
+
+Forever:
+    Move forward at 80% speed
+    If BLUE detected:
+        Move forward 25 cm at 80% speed
+        Increase servo angle by 12°
+        Move forward 105 cm at 80% speed
+        Turn servo counterclockwise to zero point
+When program starts:
+    Set servo angle as new zero point
+    Turn on camera preview
+    Turn on camera white balance
+    Turn on color block detection
+    Set color block to ORANGE with L: 60.80, A: -15.10, B: -5.10
+
+Forever:
+    Move forward at 80% speed
+    If ORANGE detected:
+        Increase servo angle by -12°
+        Move forward 105 cm at 80% speed
+        Turn servo clockwise to zero point
+
+DEFINE Green B:
+    Set color block to GREEN with L: 5.30, A: -25.5, B: -5.15
+    If GREEN detected:
+        Stop moving
+
+DEFINE Red B:
+    Set color block to RED with L: 20.45, A: -5.15, B: -10.20
+    Set servo angle as new zero point
+    If RED detected:
+        Stop moving
+When obstacle distance < -5:
+    Set servo angle as new zero point
+    Turn on color block detection
+    Turn on camera preview
+    Turn on camera white balance
+    Set color block to RED (L:20.80, A:30.50, B:15.35)
+
+    Move forward at 70% speed
+
+    If RED detected:
+        Increase servo angle by -11°
+        Move forward 30 cm at 70% speed
+        Increase servo angle by 20°
+        Move forward 40 cm at 70% speed
+        Turn servo counterclockwise to zero point
+        Move forward 20 cm at 70% speed
+
+
+
+
+
+These represent the complete logic of our robot. The programs were tested and refined during each stage of development.
