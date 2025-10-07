@@ -3,18 +3,16 @@ Future Engineers Self-Driving Car project
 WRO Future Engineers team
 <img width="1707" height="282" alt="image" src="https://github.com/user-attachments/assets/364d4321-6f78-4c3f-8aa7-bb45c94accdb" />
 
-This repository provides information and knowledge regarding the ongoing progress, evolution, and development of our self-driving robot vehicle, which was created and coded by us, Maryum and Hamad and Khalifa, as participants in the Future Engineers 2025 division of the World Robot Olympiad (WRO).
+This repository documents the journey, advancements, and continuous development of our self-driving robot vehicle, designed and programmed by Maryum, Hamad, and Khalifa. Our project is part of the Future Engineers 2025 division in the World Robot Olympiad (WRO).
 
 <img width="676" height="604" alt="image" src="https://github.com/user-attachments/assets/af796fcb-390a-4446-ab57-0e5d899936ee" />
 
 
-The World Robot Olympiad (WRO) is a prestigious international robotics competition that ignites the imaginations of students worldwide. It challenges participants to showcase their creativity, problem-solving skills, and technical prowess in designing and programming robots for a variety of tasks and challenges.
+The World Robot Olympiad (WRO) is a globally recognized robotics competition that inspires students to push the boundaries of innovation. It provides a platform for young minds to demonstrate their technical expertise, creative thinking, and problem-solving abilities through the design and programming of robots to complete diverse challenges.
 
-One of the most dynamic categories within WRO is the Future Engineers category. Here, participants are tasked with developing innovative solutions to real-world problems using robotics and automation. This category serves as a breeding ground for future innovators, encouraging students to think critically and creatively, laying the groundwork for a new generation of engineers and technologists.
+Among the most forward-thinking divisions is Future Engineers, where teams are encouraged to develop robotic and automated solutions to real-world problems. This category nurtures future innovators by promoting critical thinking, originality, and engineering skills, preparing participants to become the next generation of tech pioneers.
 
-This year, the Future Engineers category presents an exciting challenge: creating a self-driving car. This challenge pushes participants to explore the cutting edge of robotics, adding layers of complexity and innovation to an already thrilling competition.
-
-Watch the challenge explanation video!!!!!
+For 2025, the Future Engineers challenge focuses on designing and building a self-driving vehicle. This theme encourages teams to explore advanced concepts in robotics, introducing new layers of complexity, autonomy, and creativity, making it one of the most exciting categories in the competition.
 
 
 # OUR ROBOT
@@ -67,14 +65,12 @@ The robot autonomously:
 - Handles randomized starting directions
 - Parks precisely using vision and distance sensors
 
-By integrating OpenMV, we achieve more accurate **color thresholding**, **path control**, and **parking alignment** than basic block platforms.
+By integrating OpenMV, we achieve more accurate **color thresholding**, **path control**, and **parking alignment**.
 
 ## Hardware & Software
 **Hardware**
 - LEGO Spike Prime / EV3 Robot Kit  
-- OpenMV H7 Camera  
-- Ultrasonic Sensor (distance detection)  
-- Color Sensor (optional backup)  
+- OpenMV H7 Camera   
 - Custom mounting bracket for camera
 
 **Software**
